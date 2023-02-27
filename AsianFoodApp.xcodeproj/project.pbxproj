@@ -13,6 +13,11 @@
 		F477CBD329AD70F5008195C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F477CBD129AD70F5008195C3 /* Main.storyboard */; };
 		F477CBD529AD70F6008195C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F477CBD429AD70F6008195C3 /* Assets.xcassets */; };
 		F477CBD829AD70F6008195C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F477CBD629AD70F6008195C3 /* LaunchScreen.storyboard */; };
+		F477CBE229AD72CD008195C3 /* Foods.swift in Sources */ = {isa = PBXBuildFile; fileRef = F477CBE129AD72CD008195C3 /* Foods.swift */; };
+		F477CBE429AD72FC008195C3 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F477CBE329AD72FC008195C3 /* MenuController.swift */; };
+		F477CBE629AD732D008195C3 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F477CBE529AD732D008195C3 /* MenuItemView.swift */; };
+		F477CBE829AD7357008195C3 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F477CBE729AD7357008195C3 /* ContactView.swift */; };
+		F477CBEC29AD738C008195C3 /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F477CBEB29AD738C008195C3 /* ContactController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		F477CBD429AD70F6008195C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F477CBD729AD70F6008195C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F477CBD929AD70F6008195C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F477CBE129AD72CD008195C3 /* Foods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foods.swift; sourceTree = "<group>"; };
+		F477CBE329AD72FC008195C3 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		F477CBE529AD732D008195C3 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		F477CBE729AD7357008195C3 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		F477CBEB29AD738C008195C3 /* ContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +73,29 @@
 				F477CBD429AD70F6008195C3 /* Assets.xcassets */,
 				F477CBD629AD70F6008195C3 /* LaunchScreen.storyboard */,
 				F477CBD929AD70F6008195C3 /* Info.plist */,
+				F477CBE029AD7173008195C3 /* Contact */,
+				F477CBDF29AD7162008195C3 /* Menu */,
 			);
 			path = AsianFoodApp;
+			sourceTree = "<group>";
+		};
+		F477CBDF29AD7162008195C3 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				F477CBE129AD72CD008195C3 /* Foods.swift */,
+				F477CBE329AD72FC008195C3 /* MenuController.swift */,
+				F477CBE529AD732D008195C3 /* MenuItemView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		F477CBE029AD7173008195C3 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				F477CBE729AD7357008195C3 /* ContactView.swift */,
+				F477CBEB29AD738C008195C3 /* ContactController.swift */,
+			);
+			path = Contact;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F477CBE429AD72FC008195C3 /* MenuController.swift in Sources */,
 				F477CBD029AD70F5008195C3 /* ViewController.swift in Sources */,
+				F477CBEC29AD738C008195C3 /* ContactController.swift in Sources */,
+				F477CBE229AD72CD008195C3 /* Foods.swift in Sources */,
 				F477CBCC29AD70F5008195C3 /* AppDelegate.swift in Sources */,
+				F477CBE829AD7357008195C3 /* ContactView.swift in Sources */,
+				F477CBE629AD732D008195C3 /* MenuItemView.swift in Sources */,
 				F477CBCE29AD70F5008195C3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
