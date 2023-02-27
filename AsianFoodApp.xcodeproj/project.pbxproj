@@ -34,6 +34,7 @@
 		F477CBE529AD732D008195C3 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
 		F477CBE729AD7357008195C3 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		F477CBEB29AD738C008195C3 /* ContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
+		F477CBED29AD7519008195C3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 				F477CBD929AD70F6008195C3 /* Info.plist */,
 				F477CBE029AD7173008195C3 /* Contact */,
 				F477CBDF29AD7162008195C3 /* Menu */,
+				F477CBED29AD7519008195C3 /* README.md */,
 			);
 			path = AsianFoodApp;
 			sourceTree = "<group>";
