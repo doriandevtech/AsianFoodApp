@@ -52,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				F477CBCA29AD70F5008195C3 /* AsianFoodApp */,
+				F477CBED29AD7519008195C3 /* README.md */,
 				F477CBC929AD70F5008195C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,7 +77,6 @@
 				F477CBD929AD70F6008195C3 /* Info.plist */,
 				F477CBE029AD7173008195C3 /* Contact */,
 				F477CBDF29AD7162008195C3 /* Menu */,
-				F477CBED29AD7519008195C3 /* README.md */,
 			);
 			path = AsianFoodApp;
 			sourceTree = "<group>";
