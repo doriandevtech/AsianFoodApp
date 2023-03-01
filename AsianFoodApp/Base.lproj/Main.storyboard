@@ -323,8 +323,8 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+12 345 678 901" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1V-Cj-qVm">
-                                        <rect key="frame" x="99.666666666666671" y="279" width="190.66666666666663" height="34.333333333333314"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone: +12 345 678 901" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1V-Cj-qVm">
+                                        <rect key="frame" x="57" y="279" width="276" height="34.333333333333314"/>
                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
