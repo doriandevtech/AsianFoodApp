@@ -249,6 +249,7 @@
                     <connections>
                         <segue destination="Qek-7O-seR" kind="relationship" relationship="viewControllers" id="s9N-b8-MMZ"/>
                         <segue destination="Mu2-pH-ifK" kind="relationship" relationship="viewControllers" id="ubP-Ud-LQO"/>
+                        <segue destination="3Ld-DY-7Wc" kind="relationship" relationship="viewControllers" id="KBa-cw-Wdo"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j6J-A3-THC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -274,11 +275,95 @@
             </objects>
             <point key="canvasLocation" x="661.53846153846155" y="31.990521327014218"/>
         </scene>
+        <!--Contact-->
+        <scene sceneID="O11-hi-JWU">
+            <objects>
+                <viewController id="3Ld-DY-7Wc" customClass="ContactController" customModule="AsianFoodApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5wQ-MN-XQE">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKx-zQ-gFT">
+                                <rect key="frame" x="141.66666666666666" y="404.66666666666669" width="107" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Contact us" titleAlignment="center"/>
+                                <connections>
+                                    <segue destination="XmE-Gm-7Ak" kind="showDetail" identifier="ContactDetails" id="RwG-s3-ivp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2EB-18-0k8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cKx-zQ-gFT" firstAttribute="centerY" secondItem="5wQ-MN-XQE" secondAttribute="centerY" id="Hlw-gz-qC0"/>
+                            <constraint firstItem="cKx-zQ-gFT" firstAttribute="centerX" secondItem="5wQ-MN-XQE" secondAttribute="centerX" id="wbC-iV-HQC"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Contact" image="phone" catalog="system" id="oM2-dX-KP1"/>
+                    <navigationItem key="navigationItem" id="nGV-Kz-KF4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V1V-Ru-c8a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="662" y="728"/>
+        </scene>
+        <!--Contact View-->
+        <scene sceneID="BrN-Ey-Uzf">
+            <objects>
+                <viewController id="XmE-Gm-7Ak" customClass="ContactView" customModule="AsianFoodApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xK3-b0-RYD">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="fYT-Xx-gyg">
+                                <rect key="frame" x="0.0" y="127" width="390" height="580"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asian Street Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jdy-t3-P1c">
+                                        <rect key="frame" x="68.666666666666686" y="0.0" width="253" height="41"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+12 345 678 901" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1V-Cj-qVm">
+                                        <rect key="frame" x="99.666666666666671" y="279" width="190.66666666666663" height="34.333333333333314"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1st Street Road Avenue, the Earth" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsA-DL-5f2">
+                                        <rect key="frame" x="32.666666666666657" y="551" width="324.66666666666674" height="29"/>
+                                        <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="21"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Zx-Ri-UmL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Zx-Ri-UmL" firstAttribute="bottom" secondItem="fYT-Xx-gyg" secondAttribute="bottom" constant="80" id="2bu-7g-ezK"/>
+                            <constraint firstItem="fYT-Xx-gyg" firstAttribute="leading" secondItem="6Zx-Ri-UmL" secondAttribute="leading" id="5HP-gD-kpQ"/>
+                            <constraint firstItem="6Zx-Ri-UmL" firstAttribute="trailing" secondItem="fYT-Xx-gyg" secondAttribute="trailing" id="Y7h-ld-Lu4"/>
+                            <constraint firstItem="fYT-Xx-gyg" firstAttribute="top" secondItem="6Zx-Ri-UmL" secondAttribute="top" constant="80" id="skg-e4-W6S"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="8uF-Bo-kPI"/>
+                    <connections>
+                        <outlet property="restaurantLocation" destination="gsA-DL-5f2" id="hzr-on-fT0"/>
+                        <outlet property="restaurantName" destination="Jdy-t3-P1c" id="igu-Az-06M"/>
+                        <outlet property="restaurantPhoneNumber" destination="z1V-Cj-qVm" id="z6F-pz-YD1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Zf-Qw-V48" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1591" y="728"/>
+        </scene>
     </scenes>
     <resources>
         <image name="bg" width="3057" height="4585"/>
         <image name="house" catalog="system" width="128" height="104"/>
         <image name="menucard" catalog="system" width="108" height="128"/>
+        <image name="phone" catalog="system" width="128" height="115"/>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
