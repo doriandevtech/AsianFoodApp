@@ -5,16 +5,18 @@
 ### Project type:
 - Open Source project => Feel free to contribute and react to it !
 
-### Languages:
+### Language:
 - Swift
 
-### Principles used:
+### Swift principles used:
+- UIKit
 - Struct
 - Classes
 - IBOutlets & IBOutletCollections
-- Gestures
+- Gestures - touchBegan()
 - Segue
 - ViewDidAppear()
+- ViewWillAppear()
 
 ## Here are some screenshots of my app ⤵️
 
