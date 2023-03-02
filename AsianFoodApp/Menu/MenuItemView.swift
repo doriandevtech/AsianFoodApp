@@ -16,12 +16,21 @@ class MenuItemController: UIViewController {
     
     var food: Food!
 
+//    Link values to IBOutlets when the view loaded
     override func viewDidLoad() {
         super.viewDidLoad()
         dishImage.image = UIImage(named: food.image)
         dishCountry.text = food.country
         dishLabel.text = food.name
         dishDiscussion.text = food.desc
+    }
+    
+//    Update the fodd's image when the view will appear
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        dishImage.layer.borderWidth = 2
+        dishImage.layer.borderColor = UIColor.label.cgColor // Assign the label's color to the image's border
+        
     }
 
 }
