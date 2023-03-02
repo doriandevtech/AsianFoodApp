@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="f8J-OB-pQt">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,14 +13,14 @@
             <objects>
                 <viewController id="Qek-7O-seR" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CJ2-tW-f6P">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="sBR-qY-CcK">
-                                <rect key="frame" x="0.0" y="0.0" width="390" height="761"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asian Food App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Rn-lh-IOA">
-                                <rect key="frame" x="0.0" y="701" width="390" height="40"/>
+                                <rect key="frame" x="0.0" y="709" width="393" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="YW3-yg-OFE"/>
                                 </constraints>
@@ -52,14 +52,14 @@
             <objects>
                 <viewController id="wRQ-18-fUI" customClass="MenuController" customModule="AsianFoodApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FLU-9X-aq1">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="90" translatesAutoresizingMaskIntoConstraints="NO" id="hVD-QS-mRw">
-                                <rect key="frame" x="20" y="153" width="350" height="598"/>
+                                <rect key="frame" x="20" y="185" width="353" height="534"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="WOQ-95-64F">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="110"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="110"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TO8-9B-z1D">
                                                 <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
@@ -68,13 +68,13 @@
                                                 </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="86I-py-I6v">
-                                                <rect key="frame" x="120" y="0.0" width="110" height="110"/>
+                                                <rect key="frame" x="121.66666666666666" y="0.0" width="110" height="110"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="86I-py-I6v" secondAttribute="height" id="NaN-fZ-ihq"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jKP-rU-w53">
-                                                <rect key="frame" x="240" y="0.0" width="110" height="110"/>
+                                                <rect key="frame" x="243" y="0.0" width="110" height="110"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="jKP-rU-w53" secondAttribute="height" id="4If-8t-CBA"/>
                                                 </constraints>
@@ -85,7 +85,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="r7x-PN-gaI">
-                                        <rect key="frame" x="0.0" y="244" width="350" height="110"/>
+                                        <rect key="frame" x="0.0" y="212" width="353" height="110"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BXB-a1-pmq">
                                                 <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
@@ -94,13 +94,13 @@
                                                 </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="4" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Gw-im-1pj">
-                                                <rect key="frame" x="120" y="0.0" width="110" height="110"/>
+                                                <rect key="frame" x="121.66666666666666" y="0.0" width="110" height="110"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="1Gw-im-1pj" secondAttribute="height" id="8PY-8t-suB"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GN2-pE-Q4i">
-                                                <rect key="frame" x="240" y="0.0" width="110" height="110"/>
+                                                <rect key="frame" x="243" y="0.0" width="110" height="110"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="GN2-pE-Q4i" secondAttribute="height" id="ffL-Sg-9xg"/>
                                                 </constraints>
@@ -112,7 +112,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="JjL-GO-3Hp">
-                                        <rect key="frame" x="0.0" y="488" width="350" height="110"/>
+                                        <rect key="frame" x="0.0" y="424" width="353" height="110"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="6" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="u2W-lk-9e1">
                                                 <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
@@ -121,13 +121,13 @@
                                                 </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="7" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cQ5-G0-V6o">
-                                                <rect key="frame" x="120" y="0.0" width="110" height="110"/>
+                                                <rect key="frame" x="121.66666666666666" y="0.0" width="110" height="110"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="cQ5-G0-V6o" secondAttribute="height" id="env-bx-Tpr"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="8" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="y4Y-Bj-rIo">
-                                                <rect key="frame" x="240" y="0.0" width="110" height="110"/>
+                                                <rect key="frame" x="243" y="0.0" width="110" height="110"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="y4Y-Bj-rIo" secondAttribute="height" id="xwW-OF-VBG"/>
                                                 </constraints>
@@ -145,9 +145,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="DGT-jT-bYA" firstAttribute="trailing" secondItem="hVD-QS-mRw" secondAttribute="trailing" constant="20" id="3l5-Tf-EbR"/>
-                            <constraint firstItem="DGT-jT-bYA" firstAttribute="bottom" secondItem="hVD-QS-mRw" secondAttribute="bottom" constant="10" id="fhy-16-toN"/>
+                            <constraint firstItem="DGT-jT-bYA" firstAttribute="bottom" secondItem="hVD-QS-mRw" secondAttribute="bottom" constant="50" id="fhy-16-toN"/>
                             <constraint firstItem="hVD-QS-mRw" firstAttribute="leading" secondItem="DGT-jT-bYA" secondAttribute="leading" constant="20" id="qGG-Tg-U6y"/>
-                            <constraint firstItem="hVD-QS-mRw" firstAttribute="top" secondItem="DGT-jT-bYA" secondAttribute="top" constant="10" id="ujp-L9-Srs"/>
+                            <constraint firstItem="hVD-QS-mRw" firstAttribute="top" secondItem="DGT-jT-bYA" secondAttribute="top" constant="30" id="ujp-L9-Srs"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="La Carte" id="8O6-FG-LSm"/>
@@ -173,17 +173,17 @@
             <objects>
                 <viewController id="3lC-c8-8hd" customClass="MenuItemController" customModule="AsianFoodApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gXx-9t-Iqu">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qsq-Fd-rHL">
-                                <rect key="frame" x="20" y="100" width="350" height="250"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qsq-Fd-rHL">
+                                <rect key="frame" x="20" y="135" width="353" height="250"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="250" id="YoO-Xj-Elw"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqA-an-t2B">
-                                <rect key="frame" x="0.0" y="380" width="390" height="40"/>
+                                <rect key="frame" x="0.0" y="415" width="393" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="TK1-BF-XGq"/>
                                 </constraints>
@@ -192,17 +192,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bsn-Oy-HQl">
-                                <rect key="frame" x="10" y="440" width="370" height="30"/>
+                                <rect key="frame" x="10" y="475" width="373" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="2KI-Q0-JtH"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="25"/>
+                                <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="19"/>
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HsX-YP-M1j">
-                                <rect key="frame" x="10" y="480" width="370" height="281"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                <rect key="frame" x="20" y="515" width="353" height="254"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <color key="textColor" systemColor="secondaryLabelColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -213,15 +213,15 @@
                             <constraint firstItem="rj1-LX-K5T" firstAttribute="bottom" secondItem="HsX-YP-M1j" secondAttribute="bottom" id="DAl-c1-QIl"/>
                             <constraint firstItem="Bsn-Oy-HQl" firstAttribute="leading" secondItem="rj1-LX-K5T" secondAttribute="leading" constant="10" id="EKS-Dp-6na"/>
                             <constraint firstItem="rj1-LX-K5T" firstAttribute="trailing" secondItem="Qsq-Fd-rHL" secondAttribute="trailing" constant="20" id="GGM-Ke-ZcX"/>
-                            <constraint firstItem="HsX-YP-M1j" firstAttribute="leading" secondItem="rj1-LX-K5T" secondAttribute="leading" constant="10" id="IZ0-pZ-fQC"/>
+                            <constraint firstItem="HsX-YP-M1j" firstAttribute="leading" secondItem="rj1-LX-K5T" secondAttribute="leading" constant="20" id="IZ0-pZ-fQC"/>
                             <constraint firstItem="iqA-an-t2B" firstAttribute="leading" secondItem="rj1-LX-K5T" secondAttribute="leading" id="LAQ-lg-pcg"/>
                             <constraint firstItem="iqA-an-t2B" firstAttribute="trailing" secondItem="rj1-LX-K5T" secondAttribute="trailing" id="Rfb-iD-JRP"/>
                             <constraint firstItem="Qsq-Fd-rHL" firstAttribute="leading" secondItem="rj1-LX-K5T" secondAttribute="leading" constant="20" id="Zuw-9I-cki"/>
                             <constraint firstItem="HsX-YP-M1j" firstAttribute="top" secondItem="Bsn-Oy-HQl" secondAttribute="bottom" constant="10" id="b6Q-1K-05m"/>
                             <constraint firstItem="rj1-LX-K5T" firstAttribute="trailing" secondItem="Bsn-Oy-HQl" secondAttribute="trailing" constant="10" id="bUb-6O-rhM"/>
-                            <constraint firstItem="rj1-LX-K5T" firstAttribute="trailing" secondItem="HsX-YP-M1j" secondAttribute="trailing" constant="10" id="fVY-ij-tOW"/>
+                            <constraint firstItem="rj1-LX-K5T" firstAttribute="trailing" secondItem="HsX-YP-M1j" secondAttribute="trailing" constant="20" id="fVY-ij-tOW"/>
                             <constraint firstItem="Bsn-Oy-HQl" firstAttribute="top" secondItem="iqA-an-t2B" secondAttribute="bottom" constant="20" id="gHZ-fd-G0Z"/>
-                            <constraint firstItem="Qsq-Fd-rHL" firstAttribute="top" secondItem="gXx-9t-Iqu" secondAttribute="top" constant="100" id="sxH-7A-Jlz"/>
+                            <constraint firstItem="Qsq-Fd-rHL" firstAttribute="top" secondItem="rj1-LX-K5T" secondAttribute="top" constant="-20" id="sxH-7A-Jlz"/>
                             <constraint firstItem="iqA-an-t2B" firstAttribute="top" secondItem="Qsq-Fd-rHL" secondAttribute="bottom" constant="30" id="vUQ-pI-J68"/>
                         </constraints>
                     </view>
@@ -263,7 +263,7 @@
                     <tabBarItem key="tabBarItem" title="Menu" image="menucard" catalog="system" id="XKJ-N7-4lQ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="80P-2g-dcA">
-                        <rect key="frame" x="0.0" y="47" width="390" height="96"/>
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -280,11 +280,11 @@
             <objects>
                 <viewController id="3Ld-DY-7Wc" customClass="ContactController" customModule="AsianFoodApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5wQ-MN-XQE">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKx-zQ-gFT">
-                                <rect key="frame" x="141.66666666666666" y="404.66666666666669" width="107" height="35"/>
+                                <rect key="frame" x="143" y="408.66666666666669" width="107" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Contact us" titleAlignment="center"/>
                                 <connections>
@@ -311,26 +311,26 @@
             <objects>
                 <viewController id="XmE-Gm-7Ak" customClass="ContactView" customModule="AsianFoodApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xK3-b0-RYD">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="fYT-Xx-gyg">
-                                <rect key="frame" x="0.0" y="127" width="390" height="580"/>
+                                <rect key="frame" x="0.0" y="139" width="393" height="564"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asian Street Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jdy-t3-P1c">
-                                        <rect key="frame" x="68.666666666666686" y="0.0" width="253" height="41"/>
+                                        <rect key="frame" x="70" y="0.0" width="253" height="41"/>
                                         <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone: +12 345 678 901" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1V-Cj-qVm">
-                                        <rect key="frame" x="57" y="279" width="276" height="34.333333333333314"/>
+                                        <rect key="frame" x="58.666666666666657" y="271" width="276" height="34.333333333333314"/>
                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1st Street Road Avenue, the Earth" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsA-DL-5f2">
-                                        <rect key="frame" x="32.666666666666657" y="551" width="324.66666666666674" height="29"/>
+                                        <rect key="frame" x="34.333333333333343" y="535" width="324.66666666666663" height="29"/>
                                         <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="21"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
