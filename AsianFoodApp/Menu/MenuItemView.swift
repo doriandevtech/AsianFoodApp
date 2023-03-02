@@ -13,6 +13,7 @@ class MenuItemController: UIViewController {
     @IBOutlet weak var dishCountry: UILabel!
     @IBOutlet weak var dishDiscussion: UILabel!
     @IBOutlet weak var dishImage: UIImageView!
+    @IBOutlet weak var dishFlag: UILabel!
     
     var food: Food!
 
@@ -23,6 +24,7 @@ class MenuItemController: UIViewController {
         dishCountry.text = food.country
         dishLabel.text = food.name
         dishDiscussion.text = food.desc
+        dishFlag.text = food.flag
     }
     
 //    Update the fodd's image when the view will appear
