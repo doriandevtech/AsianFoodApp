@@ -32,7 +32,7 @@ class MenuItemController: UIViewController {
         super.viewWillAppear(animated)
         dishImage.layer.borderWidth = 2
         dishImage.layer.borderColor = UIColor.label.cgColor // Assign the label's color to the image's border
-        
+        dishImage.layer.cornerRadius = dishImage.frame.height / 4
     }
 
 }
