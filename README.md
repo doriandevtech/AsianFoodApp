@@ -20,13 +20,14 @@
 
 ### Home Page view:
 
-<img width="329" alt="Capture d’écran 2023-03-01 à 10 52 30 PM" src="https://user-images.githubusercontent.com/61510923/222274390-30a50db3-5d13-4bfa-bce3-015438f65dc7.png">
+![Capture d’écran 2023-03-02 à 11 33 20 PM](https://user-images.githubusercontent.com/61510923/222575312-a55d41a1-23e7-4a9f-9746-61d14db964ae.png)
 
 ### Menu List view & Menu List Detail view:
 
-<img width="329" alt="Capture d’écran 2023-03-01 à 10 52 44 PM" src="https://user-images.githubusercontent.com/61510923/222274561-4bb0777e-a990-4f53-bb87-6c68abaa0ba8.png">
-<img width="329" alt="Capture d’écran 2023-03-01 à 10 52 14 PM" src="https://user-images.githubusercontent.com/61510923/222274592-6bce1988-4322-415a-b832-9d274eeebb4b.png">
+![Capture d’écran 2023-03-02 à 11 34 17 PM](https://user-images.githubusercontent.com/61510923/222575348-f77c7b01-6274-4725-beb6-30e87fc46e00.png)
+
+![Capture d’écran 2023-03-02 à 11 34 20 PM](https://user-images.githubusercontent.com/61510923/222575358-efb22211-b741-4adb-9aba-a26a2dc294d6.png)
 
 ### Contact view:
 
-<img width="329" alt="Capture d’écran 2023-03-01 à 10 52 51 PM" src="https://user-images.githubusercontent.com/61510923/222274593-8c12cde9-7237-4590-8d0d-15dc0b6dd062.png">
+![Capture d’écran 2023-03-02 à 11 34 23 PM](https://user-images.githubusercontent.com/61510923/222575394-a3b6ab4e-7e2f-4bb5-a2e2-d49ca6d72439.png)
