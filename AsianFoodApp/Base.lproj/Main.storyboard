@@ -19,12 +19,12 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="sBR-qY-CcK">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asian Food App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Rn-lh-IOA">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asian Street Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Rn-lh-IOA">
                                 <rect key="frame" x="0.0" y="709" width="393" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="YW3-yg-OFE"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="35"/>
+                                <fontDescription key="fontDescription" name="PingFangHK-Semibold" family="PingFang HK" pointSize="35"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -183,24 +183,24 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqA-an-t2B">
-                                <rect key="frame" x="0.0" y="415" width="393" height="40"/>
+                                <rect key="frame" x="0.0" y="405" width="393" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="TK1-BF-XGq"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="PingFangHK-Semibold" family="PingFang HK" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="7r3-YR-8P3">
-                                <rect key="frame" x="10" y="475" width="373" height="30"/>
+                                <rect key="frame" x="10" y="455" width="373" height="30"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bsn-Oy-HQl">
                                         <rect key="frame" x="0.0" y="0.0" width="333" height="30"/>
-                                        <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="22"/>
+                                        <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="22"/>
                                         <color key="textColor" systemColor="systemRedColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flag" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iR5-Vw-hGg">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iR5-Vw-hGg">
                                         <rect key="frame" x="333" y="0.0" width="40" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="40" id="fye-rE-XcQ"/>
@@ -215,9 +215,9 @@
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HsX-YP-M1j">
-                                <rect key="frame" x="20" y="505" width="353" height="244"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <color key="textColor" systemColor="secondaryLabelColor"/>
+                                <rect key="frame" x="20" y="485" width="353" height="264"/>
+                                <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -226,7 +226,7 @@
                         <constraints>
                             <constraint firstItem="HsX-YP-M1j" firstAttribute="top" secondItem="7r3-YR-8P3" secondAttribute="bottom" id="9hD-Wp-RIl"/>
                             <constraint firstItem="rj1-LX-K5T" firstAttribute="bottom" secondItem="HsX-YP-M1j" secondAttribute="bottom" constant="20" id="DAl-c1-QIl"/>
-                            <constraint firstItem="7r3-YR-8P3" firstAttribute="top" secondItem="iqA-an-t2B" secondAttribute="bottom" constant="20" id="EuV-St-LWY"/>
+                            <constraint firstItem="7r3-YR-8P3" firstAttribute="top" secondItem="iqA-an-t2B" secondAttribute="bottom" constant="10" id="EuV-St-LWY"/>
                             <constraint firstItem="rj1-LX-K5T" firstAttribute="trailing" secondItem="Qsq-Fd-rHL" secondAttribute="trailing" constant="20" id="GGM-Ke-ZcX"/>
                             <constraint firstItem="HsX-YP-M1j" firstAttribute="leading" secondItem="rj1-LX-K5T" secondAttribute="leading" constant="20" id="IZ0-pZ-fQC"/>
                             <constraint firstItem="iqA-an-t2B" firstAttribute="leading" secondItem="rj1-LX-K5T" secondAttribute="leading" id="LAQ-lg-pcg"/>
@@ -236,7 +236,7 @@
                             <constraint firstItem="rj1-LX-K5T" firstAttribute="trailing" secondItem="HsX-YP-M1j" secondAttribute="trailing" constant="20" id="fVY-ij-tOW"/>
                             <constraint firstItem="7r3-YR-8P3" firstAttribute="leading" secondItem="rj1-LX-K5T" secondAttribute="leading" constant="10" id="gdE-6U-EpR"/>
                             <constraint firstItem="Qsq-Fd-rHL" firstAttribute="top" secondItem="rj1-LX-K5T" secondAttribute="top" constant="-20" id="sxH-7A-Jlz"/>
-                            <constraint firstItem="iqA-an-t2B" firstAttribute="top" secondItem="Qsq-Fd-rHL" secondAttribute="bottom" constant="30" id="vUQ-pI-J68"/>
+                            <constraint firstItem="iqA-an-t2B" firstAttribute="top" secondItem="Qsq-Fd-rHL" secondAttribute="bottom" constant="20" id="vUQ-pI-J68"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="erc-zd-eKW"/>
@@ -264,7 +264,7 @@
                     <connections>
                         <segue destination="Qek-7O-seR" kind="relationship" relationship="viewControllers" id="s9N-b8-MMZ"/>
                         <segue destination="Mu2-pH-ifK" kind="relationship" relationship="viewControllers" id="ubP-Ud-LQO"/>
-                        <segue destination="3Ld-DY-7Wc" kind="relationship" relationship="viewControllers" id="KBa-cw-Wdo"/>
+                        <segue destination="sE4-Al-tHH" kind="relationship" relationship="viewControllers" id="eed-KH-Tkz"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j6J-A3-THC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -291,46 +291,15 @@
             <point key="canvasLocation" x="661.53846153846155" y="31.990521327014218"/>
         </scene>
         <!--Contact-->
-        <scene sceneID="O11-hi-JWU">
-            <objects>
-                <viewController id="3Ld-DY-7Wc" customClass="ContactController" customModule="AsianFoodApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="5wQ-MN-XQE">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKx-zQ-gFT">
-                                <rect key="frame" x="143" y="408.66666666666669" width="107" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Contact us" titleAlignment="center"/>
-                                <connections>
-                                    <segue destination="XmE-Gm-7Ak" kind="showDetail" identifier="ContactDetails" id="RwG-s3-ivp"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="2EB-18-0k8"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="cKx-zQ-gFT" firstAttribute="centerY" secondItem="5wQ-MN-XQE" secondAttribute="centerY" id="Hlw-gz-qC0"/>
-                            <constraint firstItem="cKx-zQ-gFT" firstAttribute="centerX" secondItem="5wQ-MN-XQE" secondAttribute="centerX" id="wbC-iV-HQC"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Contact" image="phone" catalog="system" id="oM2-dX-KP1"/>
-                    <navigationItem key="navigationItem" id="nGV-Kz-KF4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="V1V-Ru-c8a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="662" y="728"/>
-        </scene>
-        <!--Contact View-->
         <scene sceneID="BrN-Ey-Uzf">
             <objects>
                 <viewController id="XmE-Gm-7Ak" customClass="ContactView" customModule="AsianFoodApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xK3-b0-RYD">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="fYT-Xx-gyg">
-                                <rect key="frame" x="0.0" y="139" width="393" height="564"/>
+                                <rect key="frame" x="0.0" y="235" width="393" height="454"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asian Street Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jdy-t3-P1c">
                                         <rect key="frame" x="70" y="0.0" width="253" height="41"/>
@@ -339,13 +308,13 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone: +12 345 678 901" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1V-Cj-qVm">
-                                        <rect key="frame" x="58.666666666666657" y="271" width="276" height="34.333333333333314"/>
+                                        <rect key="frame" x="58.666666666666657" y="216" width="276" height="34.333333333333343"/>
                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1st Street Road Avenue, the Earth" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsA-DL-5f2">
-                                        <rect key="frame" x="34.333333333333343" y="535" width="324.66666666666663" height="29"/>
+                                        <rect key="frame" x="34.333333333333343" y="425" width="324.66666666666663" height="29"/>
                                         <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="21"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -362,7 +331,7 @@
                             <constraint firstItem="fYT-Xx-gyg" firstAttribute="top" secondItem="6Zx-Ri-UmL" secondAttribute="top" constant="80" id="skg-e4-W6S"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="8uF-Bo-kPI"/>
+                    <navigationItem key="navigationItem" title="Contact" id="8uF-Bo-kPI"/>
                     <connections>
                         <outlet property="restaurantLocation" destination="gsA-DL-5f2" id="hzr-on-fT0"/>
                         <outlet property="restaurantName" destination="Jdy-t3-P1c" id="igu-Az-06M"/>
@@ -371,7 +340,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Zf-Qw-V48" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1591" y="728"/>
+            <point key="canvasLocation" x="1588.5496183206105" y="721.83098591549299"/>
+        </scene>
+        <!--Contact-->
+        <scene sceneID="hQX-8g-YRa">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sE4-Al-tHH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Contact" image="phone" catalog="system" id="9Sf-zy-ZBq"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="19N-Hr-q6M">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="XmE-Gm-7Ak" kind="relationship" relationship="rootViewController" id="1oe-gw-hg5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="abZ-b4-wAO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="661.83206106870227" y="721.83098591549299"/>
         </scene>
     </scenes>
     <resources>
@@ -379,9 +367,6 @@
         <image name="house" catalog="system" width="128" height="104"/>
         <image name="menucard" catalog="system" width="108" height="128"/>
         <image name="phone" catalog="system" width="128" height="115"/>
-        <systemColor name="secondaryLabelColor">
-            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
